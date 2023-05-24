@@ -124,7 +124,7 @@
 		"innerColor": [83, 0, 208],
 		"favoredReligion": "Islam",
 		"uniqueName": "Monument Builders",
-		"uniques": ["[+5 Gold, +5 Culture] from every [Landmark]","[+5 Science, +5 Culture] from every [Burial Tomb]","[+5 Science, +5 Culture] from every [Public School]","[+20]% Production when constructing [All] wonders [in all cities]","[+20]% Production when constructing [All] wonders [in all cities] <during a Golden Age>"],
+		"uniques": ["[+7 Gold, +5 Culture] from every [Landmark]","[+5 Science, +5 Culture] from every [Burial Tomb]","[+5 Science, +10 Culture,+7 Gold ] from every [Public School]","[+20]% Production when constructing [All] wonders [in all cities]","[+20]% Production when constructing [All] wonders [in all cities] <during a Golden Age>"],
 		"cities": ["Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Byblos","Akhetaten",
 			   "Hieraconpolis","Abydos","Asyut","Avaris","Lisht","Buto","Edfu","Pithom","Busiris","Kahun","Athribis",
 			   "Mendes","Elashmunein","Tanis","Bubastis","Oryx","Sebennytus","Akhmin","Karnak","Luxor","El Kab","Armant",
