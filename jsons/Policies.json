@@ -11,52 +11,55 @@
         },
         "uniques": [
             "[+2 Food, +2 Happiness] [in capital]",
-            "[2] population [in capital]"
-            "[+1 Culture] per [2] population [in capital]"
+            "[2] population [in capital]",
+            "[+1 Culture] per [2] population [in capital]",
+            "[+5]% growth [in all cities]"
         ],
         "policies": [
             {
-                "name": "Aristocracy",
+                "name": "Justice",
                 "uniques": [
-                    "[+15]% Production when constructing [All] wonders [in all cities]",
-                    "[+1 Happiness] per [10] population [in all cities]"
+                    "[+25]% Strength for cities <with a garrison> <when attacking>"
+                    "Gain a free [Royal Guardhouse] [in capital]"
                 ],
                 "row": 1,
                 "column": 1
             },
             {
-                "name": "Legalism",
+                "name": "Sovereignty",
                 "uniques": [
-                    "Provides the cheapest [Culture] building in your first [4] cities for free"
+                    "Gain a free [Court Chapel] [in capital]"
                 ],
                 "row": 1,
                 "column": 3
             },
             {
-                "name": "Oligarchy",
+                "name": "Ceremony",
                 "uniques": [
                     "Units in cities cost no Maintenance",
                     "[+50]% Strength for cities <with a garrison> <when attacking>"
                 ],
+                "requires": ["Justice","Sovereignty"],
                 "row": 3,
                 "column": 2
             },
             {
-                "name": "Landed Elite",
+                "name": "",
                 "uniques": [
                     "[+10]% growth [in capital]",
                     "[+2 Food] [in capital]"
                 ],
-                "requires": ["Legalism"],
+                "requires": ["Ceremony"],
                 "row": 5,
                 "column": 1
             },
             {
                 "name": "Majesty",
                 "uniques": [
-                    "[+1 Gold, +1 Happiness] per [2] population [in capital]"
+                    "[-50]% Food consumption by specialists [in capital]"
+                    "Gain a free [State Treasury] [in capital]"
                 ],
-                "requires": ["Legalism"],
+                "requires": ["Ceremony"],
                 "row": 5,
                 "column": 3
             },
