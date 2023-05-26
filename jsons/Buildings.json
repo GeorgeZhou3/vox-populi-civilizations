@@ -1,0 +1,58 @@
+[
+  {
+		"name": "Fealty Defense 1",
+		"cost": 0,
+    "cityStrength": 1,
+		"uniques": ["Unbuildable", "Destroyed when the city is captured"]
+	},
+  {
+		"name": "Fealty Defense 2",
+		"cost": 0,
+    "cityStrength": 1,
+		"uniques": ["Unbuildable", "Destroyed when the city is captured"]
+	},
+  {
+		"name": "Fealty Defense 3",
+		"cost": 0,
+    "cityStrength": 1,
+		"uniques": ["Unbuildable", "Destroyed when the city is captured"]
+	},
+  {
+		"name": "Fealty Defense 4",
+		"cost": 0,
+    "cityStrength": 1,
+		"uniques": ["Unbuildable", "Destroyed when the city is captured"]
+	},
+  {
+		"name": "Fealty Defense 5",
+		"cost": 0,
+    "cityStrength": 1,
+		"uniques": ["Unbuildable", "Destroyed when the city is captured"]
+	},
+  {
+		"name": "Court Chapel",
+		"faith": 3,
+		"specialistSlots": {"Artist": 2},
+		"uniques": ["Unbuildable", "Destroyed when the city is captured"]
+	},
+  {
+		"name": "Palace Gardens",
+		"food": 5,
+		"specialistSlots": {"Writer": 2},
+		"uniques": ["Unbuildable", "Destroyed when the city is captured","[+2 Culture] from every [Garden]","[+2 Culture] from every [Baths]","[+2 Culture] from every []"]
+	},
+  {
+		"name": "Throne Room",
+		"specialistSlots": {"Musician": 2},
+    "percentStatBonus": {"science": 10,"faith": 10,"culture": 10,"food": 10,"production": 10,"gold": 10},
+		"uniques": ["Unbuildable", "Destroyed when the city is captured"]
+	},
+  {
+		"name": "Monastery",
+		"cost": 0,
+		"science": 3,
+		"food": 3,
+    "faith": 2,
+		"uniques": ["Unbuildable", "Hidden when religion is disabled", "Destroyed when the city is captured"]
+	}
+]
