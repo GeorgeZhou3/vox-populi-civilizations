@@ -54,5 +54,10 @@
 		"food": 3,
     "faith": 2,
 		"uniques": ["Unbuildable", "Hidden when religion is disabled", "Destroyed when the city is captured"]
-	}
+	},
+	  {
+		"name": "Celtic Pantheon - ",
+		"cost": 0,
+		"uniques": ["Unbuildable", "Hidden when religion is disabled", "Destroyed when the city is captured"]
+	},
 ]
