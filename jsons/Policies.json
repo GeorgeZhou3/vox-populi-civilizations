@@ -10,8 +10,9 @@
             "Scientific": 10
         },
         "uniques": [
-            "[+3 Culture] [in capital]",
-            "Gain a free [Library] [in all cities]"
+            "[+2 Food, +2 Happiness] [in capital]",
+            "[2] population [in capital]"
+            "[+1 Culture] per [2] population [in capital]"
         ],
         "policies": [
             {
@@ -21,7 +22,7 @@
                     "[+1 Happiness] per [10] population [in all cities]"
                 ],
                 "row": 1,
-                "column": 10
+                "column": 1
             },
             {
                 "name": "Legalism",
@@ -37,8 +38,8 @@
                     "Units in cities cost no Maintenance",
                     "[+50]% Strength for cities <with a garrison> <when attacking>"
                 ],
-                "row": 1,
-                "column": 5
+                "row": 3,
+                "column": 2
             },
             {
                 "name": "Landed Elite",
@@ -47,23 +48,22 @@
                     "[+2 Food] [in capital]"
                 ],
                 "requires": ["Legalism"],
-                "row": 2,
-                "column": 2
+                "row": 5,
+                "column": 1
             },
             {
-                "name": "Monarchy",
+                "name": "Majesty",
                 "uniques": [
                     "[+1 Gold, +1 Happiness] per [2] population [in capital]"
                 ],
                 "requires": ["Legalism"],
-                "row": 2,
-                "column": 4
+                "row": 5,
+                "column": 3
             },
             {
                 "name": "Tradition Complete",
                 "uniques": [
-                    "[+15]% growth [in all cities]",
-                    "Provides a [Aqueduct] in your first [4] cities for free"
+                     "Gain a free [Throne Room] [in capital]"
                 ]
             }
         ]
